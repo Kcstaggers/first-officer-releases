@@ -1,0 +1,10 @@
+First Officer · third-party notices
+
+First Officer is developed by Keith Staggers. These notices identify the third-party software included in this Windows package. They do not set the license for First Officer itself.
+
+Electron 44.2.0: licenses/ELECTRON-LICENSE.txt (MIT).
+Chromium and Electron-bundled components: licenses/LICENSES.chromium.html.
+Inter typeface: ui/INTER-LICENSE.txt.
+Installer: NSIS 3.12, Modern UI 2, standard System and nsDialogs plugins, and the zlib compression module. The uninstaller uses the standard System plugin. The NSIS copyright and license text is included in licenses/NSIS-LICENSE.txt. No NSIS source component has been modified; the First Officer installation script is separate project-authored code.
+The installer uses zlib compression, not the optional bzip2 or LZMA modules described in the complete upstream license file.
+Official project and documentation: https://nsis.sourceforge.io/

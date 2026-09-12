@@ -1,0 +1,8 @@
+First Officer · third-party notices
+
+First Officer is developed by Keith Staggers. These notices identify the third-party software included in this Mac package. They do not set the license for First Officer itself.
+
+Electron 44.2.0: licenses/ELECTRON-LICENSE.txt (MIT).
+Chromium and Electron-bundled components: licenses/LICENSES.chromium.html.
+Inter typeface: ui/INTER-LICENSE.txt.
+Build-only npm tools are not shipped in this app. Their versions and integrity values are retained in the build receipt and package lock.
