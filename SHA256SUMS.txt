@@ -1,5 +1,7 @@
-# Corrected current Mac ZIP
+# Guided Mac installer
+6d9127966c9e4f4e09fd33c24476af458cc1e4717899bcaecfe6e8cbb8d74382  First-Officer-0.1.0-dev.19-mac-arm64-install.1.dmg
+# Earlier corrected Mac ZIP, preserved
 45b36a6bd504eb6435c2c8a46023810134bd6aeba1add70e6743f6d13170a9c1  First-Officer-0.1.0-dev.19-mac-arm64-repack.1.zip
-# Original Mac ZIP retained for identification only; use repack.1 instead.
+# Original Mac ZIP retained for identification only; use the guided install.1 DMG.
 576430d193d48c9933c39330d60937cc7841f90f754d089891446059c9687742  First-Officer-0.1.0-dev.19-mac-arm64.zip
 555d81633f18487141b7af012d304921c7b6e4796d604ec9f7951518468f01d0  First-Officer-0.1.0-dev.19-windows-x64-setup.exe

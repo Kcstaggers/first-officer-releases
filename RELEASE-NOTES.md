@@ -1,14 +1,30 @@
-## Mac ZIP correction: repack.1
+## Guided Mac installation: install.1
 
-The original dev.19 Mac ZIP could leave extra metadata files inside the app,
-causing macOS to reject its signature. Use the [corrected Mac ZIP](https://github.com/Kcstaggers/first-officer-releases/releases/download/v0.1.0-dev.19/First-Officer-0.1.0-dev.19-mac-arm64-repack.1.zip)
-instead of the original Mac ZIP. The app version and signed program files are
-unchanged; this corrects the ZIP packaging only. The Windows installer is unchanged.
+Use the [guided Mac installer](https://github.com/Kcstaggers/first-officer-releases/releases/download/v0.1.0-dev.19/First-Officer-0.1.0-dev.19-mac-arm64-install.1.dmg).
+Open the disk image, then open Install First Officer. Choose Install First Officer
+to put the app in Applications for your current Mac account. Leave the desktop
+shortcut selected if you want an icon there. If macOS asks to access Desktop,
+Allow is needed only for that optional shortcut. Then choose Open First Officer.
 
-The corrected package passes strict signature, notarization-ticket and Apple
-distribution checks after independent extraction and Finder extraction. A fresh
-internet-download and normal-opening check is still pending. If a security warning
-appears, stop and report its exact text. Do not disable protections or use an override.
+You do not need an administrator account, Terminal or a new computer account.
+The installer keeps your projects and app settings. It reuses an identical app
+already in that location and refuses to replace a different version or a
+conflicting desktop item. It does not automatically upgrade older versions.
+
+The app itself is still dev.19. This adds a guided installer, not new AI features.
+Its local installation, native desktop alias, normal opening and shortcut
+reopening passed on our test Mac. The app's 280 checked files and links and
+the selected fictional workspace stayed unchanged.
+
+macOS may show its normal downloaded-app Open confirmation. A blocked,
+damaged-app, or cannot-verify warning is different: stop and report its exact
+text. Do not disable protections or use an override. Apple checks do not
+guarantee safety.
+
+The earlier repack.1 ZIP remains available as a historical corrected package.
+Its actual browser download, Finder extraction and ordinary opening passed on
+our Mac. The original flawed ZIP is retained only for identification. Windows
+files, warning disclosures and qualification limits are unchanged.
 
 # First Officer 0.1.0-dev.19
 
