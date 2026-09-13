@@ -1,5 +1,17 @@
 # Start a project with First Officer
 
+## Mac ZIP correction: repack.1
+
+The original dev.19 Mac ZIP could leave extra metadata files inside the app,
+causing macOS to reject its signature. Use the [corrected Mac ZIP](https://github.com/Kcstaggers/first-officer-releases/releases/download/v0.1.0-dev.19/First-Officer-0.1.0-dev.19-mac-arm64-repack.1.zip)
+instead of the original Mac ZIP. The app version and signed program files are
+unchanged; this corrects the ZIP packaging only. The Windows installer is unchanged.
+
+The corrected package passes strict signature, notarization-ticket and Apple
+distribution checks after independent extraction and Finder extraction. A fresh
+internet-download and normal-opening check is still pending. If a security warning
+appears, stop and report its exact text. Do not disable protections or use an override.
+
 ## Before installing on Windows
 
 This early Windows installer showed a SmartScreen "unrecognized app" warning
